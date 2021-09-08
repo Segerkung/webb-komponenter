@@ -8,6 +8,14 @@ body {
   line-height: 1.5;
 }
 
+h1 {  
+  font-size: 3rem;  
+}
+
+p {
+  font-size: 1rem;
+}
+
 .container {
   width: 100%;
   margin-left: auto;
@@ -20,6 +28,7 @@ body {
 .navbar {
   min-height: 3rem;
   background-color: aquamarine;
+  font-size: 1.6rem;
 }
 
 .navbar-inner {
@@ -28,7 +37,26 @@ body {
   align-items: center;
 }
 
+@media screen and (max-width: 24rem) {
+  .navbar-inner, .nav {
+    flex-direction: column;
+  }
+  
+}
+
 .nav {
   display: flex;
   list-style: none;
+}
+
+.nav-item {
+  padding-left: 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+
 }
