@@ -3,7 +3,7 @@
     background-image: url("images/te19.jpg");
     background-size: cover;
     width: 100%;
-    color: #dcdcdc;
+    color: aquamarine;
     z-index: 0;
 }
 .cta > h1 {
@@ -25,7 +25,7 @@
 .cta-right {
     padding: 0 2rem;
     text-align: right;
-    color: #dcdcdc;
+    color: aquamarine;
     z-index: 10;
 }
 .cta-right > p {
@@ -35,13 +35,12 @@
     font-size: 2rem;
     padding: .8rem;
     border: none;
-    text-transform: uppercase;
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
 .cta-right > button:hover {
     color: #dcdcdc;
-    background-color: #000;
+    background-color:rgba(130, 230, 330, 0.6);
 } 
 
 .cta-right > button:active {

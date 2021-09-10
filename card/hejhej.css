@@ -1,0 +1,48 @@
+.card {
+background-color: rgba(220, 220, 220, .4);
+width: 400px;
+height: 430px;
+padding-top: 2rem;
+}
+
+.cta-right {
+    padding-bottom: 2rem;
+}
+
+
+h1 {
+    font-size: 30px;
+
+}
+
+.knapp {
+    align-items: center;
+
+}
+
+
+button {
+    font-size: 2rem;
+    padding: .8rem;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+button:hover {
+    color: rgb(117, 117, 117);
+}
+
+img {
+    width: 350px;
+    padding-top: 3rem;
+    padding-left: 1rem;
+}
+
+.hej {
+    padding-top: 1rem;
+}
+
+.card-dark-grey {
+background-color: gray;}
