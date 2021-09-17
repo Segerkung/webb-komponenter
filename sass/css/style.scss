@@ -1,0 +1,20 @@
+$primary-color: aquamarine;
+$breakpoint-lg: 48rem;
+$breakpoint-md: div($breakpoint-lg, 2);
+
+
+@import "utilities/container";
+@import "utilities/reset.scss";
+
+body {
+    background-color: $primary-color;
+}
+ 
+img {
+    max-width: 100%;
+}
+
+
+
+@import "components/navbar"
+

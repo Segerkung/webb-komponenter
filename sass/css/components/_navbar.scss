@@ -1,0 +1,29 @@
+.navbar {
+    min-height: 3rem;
+    background-color: gray;
+    font-size: 1.6rem;
+
+
+&-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        color: #fefefe;
+        &:hover {
+            color: black;
+        }
+
+        @media  screen and (max-width: $breakpoint-md) {
+            
+        }
+    }
+
+
+}
+
+} 
+
+
+    
