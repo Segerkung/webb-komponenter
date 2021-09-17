@@ -24,6 +24,7 @@ p {
   padding-left: 1rem;
   padding-right: 1rem;
   max-width: 48rem;
+  text-decoration: none;
 }
 
 .navbar {
@@ -36,6 +37,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 24rem) {
@@ -48,6 +50,7 @@ p {
 .nav {
   display: flex;
   list-style: none;
+  padding-top: 0.25rem;
 }
 
 .nav-item {
